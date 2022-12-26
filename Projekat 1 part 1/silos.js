@@ -1,4 +1,4 @@
-export class Silos{
+export class Silos{ //nesto
     constructor(oznaka, kapacitet)
     {
         if(oznaka){
