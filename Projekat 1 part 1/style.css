@@ -1,0 +1,56 @@
+.silos{
+    width: 200px;
+    height: 500px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.naziv-silosa, .kolicina-materijala{
+    flex: 1;
+    text-align: center;
+}
+
+.popunjenost{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid black;
+
+    flex: 10;
+}
+
+.popuna{
+    background-color:lightskyblue;
+}
+
+.fabrika{
+    height: 600px;
+    width: 1200px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* levi */
+.fabrika-info{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+}
+
+/* desni */
+.forma{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.silosi{
+    display: flex;
+    flex-direction: row;
+    flex:10;
+}
+.fabrika-naslov{
+    text-align: center;
+    flex-direction: 1;
+}
+
